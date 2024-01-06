@@ -1,3 +1,84 @@
-p{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-image: url(images/banner2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    padding: 0 5%;
+    
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+h1{
+    font-size: 50px;
+}
+.cotainer{
+    background-image: url(images/person.png);
+}
+.about{
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(189, 105, 105);
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-text p{
+    color: white;
+    font-size: 20px;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h4{
+    color: white;
+}
+.service{
+    background: #101010;
+    width: 100%;
+    /* padding: 100px 0px; */
+}
+.title h1{
+    color: rgb(211, 153, 46);
+    font-size: 75px;
+    /* width: 1130px; */
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 400px;
+}
+.card{
+    margin: 60px;
 }
